@@ -133,6 +133,12 @@
     <Compile Include="UserHomeForm.Designer.cs">
       <DependentUpon>UserHomeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface.Designer.cs">
+      <DependentUpon>UserInterface.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddEmployee.resx">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserHomeForm.resx">
       <DependentUpon>UserHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface.resx">
+      <DependentUpon>UserInterface.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -54,11 +54,11 @@ namespace DesktopProject
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(53, 162);
+            this.label1.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(53, 157);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 14);
+            this.label1.Size = new System.Drawing.Size(73, 28);
             this.label1.TabIndex = 67;
             this.label1.Text = "Password";
             // 
@@ -67,7 +67,7 @@ namespace DesktopProject
             this.backToHome.BackColor = System.Drawing.Color.Red;
             this.backToHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backToHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backToHome.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backToHome.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backToHome.ForeColor = System.Drawing.SystemColors.Info;
             this.backToHome.Location = new System.Drawing.Point(11, 270);
             this.backToHome.Margin = new System.Windows.Forms.Padding(2);
@@ -84,7 +84,7 @@ namespace DesktopProject
             this.LoginAccount.BackColor = System.Drawing.Color.Green;
             this.LoginAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LoginAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoginAccount.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginAccount.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginAccount.ForeColor = System.Drawing.SystemColors.Window;
             this.LoginAccount.Location = new System.Drawing.Point(175, 212);
             this.LoginAccount.Margin = new System.Windows.Forms.Padding(2);
@@ -108,12 +108,12 @@ namespace DesktopProject
             // 
             this.empEmail.AutoSize = true;
             this.empEmail.BackColor = System.Drawing.Color.Transparent;
-            this.empEmail.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
+            this.empEmail.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.empEmail.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.empEmail.Location = new System.Drawing.Point(53, 117);
+            this.empEmail.Location = new System.Drawing.Point(63, 112);
             this.empEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.empEmail.Name = "empEmail";
-            this.empEmail.Size = new System.Drawing.Size(47, 14);
+            this.empEmail.Size = new System.Drawing.Size(53, 28);
             this.empEmail.TabIndex = 58;
             this.empEmail.Text = "Email ";
             // 
@@ -122,11 +122,11 @@ namespace DesktopProject
             this.mainHeading.AutoSize = true;
             this.mainHeading.BackColor = System.Drawing.Color.Transparent;
             this.mainHeading.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.mainHeading.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainHeading.Location = new System.Drawing.Point(148, 28);
+            this.mainHeading.Font = new System.Drawing.Font("TH SarabunPSK", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainHeading.Location = new System.Drawing.Point(142, 23);
             this.mainHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.mainHeading.Name = "mainHeading";
-            this.mainHeading.Size = new System.Drawing.Size(151, 25);
+            this.mainHeading.Size = new System.Drawing.Size(176, 39);
             this.mainHeading.TabIndex = 55;
             this.mainHeading.Text = "เข้าสู่ระบบบัญชีผู้ใช้";
             // 

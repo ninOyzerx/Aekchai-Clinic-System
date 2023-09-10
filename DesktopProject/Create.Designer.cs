@@ -50,7 +50,7 @@ namespace DesktopProject
             this.backToHome.BackColor = System.Drawing.Color.Red;
             this.backToHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.backToHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backToHome.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backToHome.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backToHome.ForeColor = System.Drawing.SystemColors.Info;
             this.backToHome.Location = new System.Drawing.Point(11, 271);
             this.backToHome.Margin = new System.Windows.Forms.Padding(2);
@@ -67,7 +67,7 @@ namespace DesktopProject
             this.RegAccount.BackColor = System.Drawing.Color.Green;
             this.RegAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RegAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RegAccount.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegAccount.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegAccount.ForeColor = System.Drawing.SystemColors.Window;
             this.RegAccount.Location = new System.Drawing.Point(325, 271);
             this.RegAccount.Margin = new System.Windows.Forms.Padding(2);
@@ -91,11 +91,11 @@ namespace DesktopProject
             // 
             this.PhoneNo.AutoSize = true;
             this.PhoneNo.BackColor = System.Drawing.Color.Transparent;
-            this.PhoneNo.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
-            this.PhoneNo.Location = new System.Drawing.Point(64, 176);
+            this.PhoneNo.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhoneNo.Location = new System.Drawing.Point(62, 170);
             this.PhoneNo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PhoneNo.Name = "PhoneNo";
-            this.PhoneNo.Size = new System.Drawing.Size(74, 14);
+            this.PhoneNo.Size = new System.Drawing.Size(83, 28);
             this.PhoneNo.TabIndex = 46;
             this.PhoneNo.Text = "Phone No.";
             // 
@@ -111,11 +111,11 @@ namespace DesktopProject
             // 
             this.regisEmail.AutoSize = true;
             this.regisEmail.BackColor = System.Drawing.Color.Transparent;
-            this.regisEmail.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
+            this.regisEmail.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regisEmail.Location = new System.Drawing.Point(75, 142);
             this.regisEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.regisEmail.Name = "regisEmail";
-            this.regisEmail.Size = new System.Drawing.Size(43, 14);
+            this.regisEmail.Size = new System.Drawing.Size(48, 28);
             this.regisEmail.TabIndex = 44;
             this.regisEmail.Text = "Email";
             // 
@@ -131,11 +131,11 @@ namespace DesktopProject
             // 
             this.FirstName.AutoSize = true;
             this.FirstName.BackColor = System.Drawing.Color.Transparent;
-            this.FirstName.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
-            this.FirstName.Location = new System.Drawing.Point(60, 72);
+            this.FirstName.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstName.Location = new System.Drawing.Point(58, 66);
             this.FirstName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.FirstName.Name = "FirstName";
-            this.FirstName.Size = new System.Drawing.Size(79, 14);
+            this.FirstName.Size = new System.Drawing.Size(83, 28);
             this.FirstName.TabIndex = 42;
             this.FirstName.Text = "First Name";
             // 
@@ -144,11 +144,11 @@ namespace DesktopProject
             this.mainHeading.AutoSize = true;
             this.mainHeading.BackColor = System.Drawing.Color.Transparent;
             this.mainHeading.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.mainHeading.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mainHeading.Location = new System.Drawing.Point(158, 29);
+            this.mainHeading.Font = new System.Drawing.Font("TH SarabunPSK", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainHeading.Location = new System.Drawing.Point(157, 20);
             this.mainHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.mainHeading.Name = "mainHeading";
-            this.mainHeading.Size = new System.Drawing.Size(124, 28);
+            this.mainHeading.Size = new System.Drawing.Size(143, 39);
             this.mainHeading.TabIndex = 39;
             this.mainHeading.Text = "ลงทะเบียนบัญชี";
             this.mainHeading.Click += new System.EventHandler(this.mainHeading_Click);
@@ -167,11 +167,11 @@ namespace DesktopProject
             // 
             this.regisPass.AutoSize = true;
             this.regisPass.BackColor = System.Drawing.Color.Transparent;
-            this.regisPass.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
-            this.regisPass.Location = new System.Drawing.Point(64, 214);
+            this.regisPass.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.regisPass.Location = new System.Drawing.Point(62, 208);
             this.regisPass.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.regisPass.Name = "regisPass";
-            this.regisPass.Size = new System.Drawing.Size(72, 14);
+            this.regisPass.Size = new System.Drawing.Size(73, 28);
             this.regisPass.TabIndex = 53;
             this.regisPass.Text = "Password";
             // 
@@ -187,11 +187,11 @@ namespace DesktopProject
             // 
             this.LastName.AutoSize = true;
             this.LastName.BackColor = System.Drawing.Color.Transparent;
-            this.LastName.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold);
-            this.LastName.Location = new System.Drawing.Point(60, 107);
+            this.LastName.Font = new System.Drawing.Font("TH SarabunPSK", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LastName.Location = new System.Drawing.Point(58, 105);
             this.LastName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LastName.Name = "LastName";
-            this.LastName.Size = new System.Drawing.Size(77, 14);
+            this.LastName.Size = new System.Drawing.Size(83, 28);
             this.LastName.TabIndex = 56;
             this.LastName.Text = "Last Name";
             this.LastName.Click += new System.EventHandler(this.label2_Click);

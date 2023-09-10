@@ -40,12 +40,12 @@ namespace DesktopProject
             this.mainHeading.AutoSize = true;
             this.mainHeading.BackColor = System.Drawing.Color.Transparent;
             this.mainHeading.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.mainHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mainHeading.Font = new System.Drawing.Font("TH SarabunPSK", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainHeading.ForeColor = System.Drawing.Color.Lime;
-            this.mainHeading.Location = new System.Drawing.Point(209, 9);
+            this.mainHeading.Location = new System.Drawing.Point(229, 9);
             this.mainHeading.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.mainHeading.Name = "mainHeading";
-            this.mainHeading.Size = new System.Drawing.Size(455, 42);
+            this.mainHeading.Size = new System.Drawing.Size(418, 64);
             this.mainHeading.TabIndex = 0;
             this.mainHeading.Text = "ยินดีตอนรับเข้าสู่ เอกชัยคลินิก";
             this.mainHeading.Click += new System.EventHandler(this.mainHeading_Click);
@@ -55,7 +55,7 @@ namespace DesktopProject
             this.CreateAccount.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.CreateAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CreateAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CreateAccount.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Bold);
+            this.CreateAccount.Font = new System.Drawing.Font("TH SarabunPSK", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateAccount.ForeColor = System.Drawing.SystemColors.Info;
             this.CreateAccount.Location = new System.Drawing.Point(500, 286);
             this.CreateAccount.Margin = new System.Windows.Forms.Padding(2);
@@ -71,7 +71,7 @@ namespace DesktopProject
             this.LoginIntoAccount.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.LoginIntoAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LoginIntoAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoginIntoAccount.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Bold);
+            this.LoginIntoAccount.Font = new System.Drawing.Font("TH SarabunPSK", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginIntoAccount.ForeColor = System.Drawing.SystemColors.Info;
             this.LoginIntoAccount.Location = new System.Drawing.Point(500, 181);
             this.LoginIntoAccount.Margin = new System.Windows.Forms.Padding(2);

@@ -40,8 +40,8 @@ namespace DesktopProject
                     {
                         MessageBox.Show("เข้าสู่ระบบสำเร็จ", "ยินดีตอนรับกลับ", MessageBoxButtons.OK);
                         this.Close();
-                        //UserHomeForm uhf = new UserHomeForm();
-                        //uhf.Show();
+                        UserInterface ui = new UserInterface();
+                        ui.Show();
                     }
                     else
                     {
