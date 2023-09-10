@@ -217,6 +217,7 @@ namespace DesktopProject
             this.Controls.Add(this.mainHeading);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Create";
+            this.ShowIcon = false;
             this.Text = "สมัครสมาชิก";
             this.Load += new System.EventHandler(this.Create_Load);
             this.ResumeLayout(false);

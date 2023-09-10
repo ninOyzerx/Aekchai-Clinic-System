@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DesktopProject
 {
-    public partial class UserHomeForm : Form
+    public partial class AdminInterface : Form
     {
-        public UserHomeForm()
+        public AdminInterface()
         {
             InitializeComponent();
-        }
-
-        private void userHomeTitleTxt_TextChanged(object sender, EventArgs e)
-        {
-            
         }
     }
 }

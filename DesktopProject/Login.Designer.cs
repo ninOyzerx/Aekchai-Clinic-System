@@ -155,6 +155,7 @@ namespace DesktopProject
             this.Controls.Add(this.mainHeading);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Login";
+            this.ShowIcon = false;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

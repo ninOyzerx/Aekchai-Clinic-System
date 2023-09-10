@@ -94,6 +94,7 @@ namespace DesktopProject
             this.Controls.Add(this.mainHeading);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Aekchai";
+            this.ShowIcon = false;
             this.Text = "Aekchai Clinic App";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

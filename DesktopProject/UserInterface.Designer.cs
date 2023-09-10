@@ -148,6 +148,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "หน้าหลัก";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -184,6 +185,7 @@
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "UserInterface";
+            this.ShowIcon = false;
             this.Text = "UserInterface";
             ((System.ComponentModel.ISupportInitialize)(this.dateTimePicker1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

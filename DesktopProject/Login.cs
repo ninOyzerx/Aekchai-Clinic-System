@@ -38,10 +38,21 @@ namespace DesktopProject
                     SqlDataReader dr = cmd.ExecuteReader();
                     if (dr.Read())
                     {
-                        MessageBox.Show("เข้าสู่ระบบสำเร็จ", "ยินดีตอนรับกลับ", MessageBoxButtons.OK);
-                        this.Close();
-                        UserInterface ui = new UserInterface();
-                        ui.Show();
+                        string userType = dr["usertype"].ToString();
+                        if (userType == "Member")
+                        {
+                            MessageBox.Show("เข้าสู่ระบบสำเร็จ", "ยินดีตอนรับกลับ", MessageBoxButtons.OK);
+                            this.Close();
+                            UserInterface ui = new UserInterface();
+                            ui.Show();
+                        }
+                        else if (userType == "Administrator")
+                        {
+                            MessageBox.Show("เข้าสู่ระบบผู้ดูแลสำเร็จ", "ยินดีตอนรับกลับ", MessageBoxButtons.OK);
+                            this.Close();
+                            AdminInterface adminui = new AdminInterface();
+                            adminui.Show();
+                        }
                     }
                     else
                     {
