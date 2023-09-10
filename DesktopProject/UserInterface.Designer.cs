@@ -186,7 +186,7 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "UserInterface";
             this.ShowIcon = false;
-            this.Text = "UserInterface";
+            this.Text = "Home User";
             ((System.ComponentModel.ISupportInitialize)(this.dateTimePicker1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

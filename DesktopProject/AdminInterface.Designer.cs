@@ -28,10 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminInterface));
+            this.SuspendLayout();
+            // 
+            // AdminInterface
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "AdminInterface";
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1000, 503);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Name = "AdminInterface";
+            this.ShowIcon = false;
+            this.Text = "Home Administrator";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
