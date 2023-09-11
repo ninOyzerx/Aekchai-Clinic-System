@@ -44,21 +44,30 @@ namespace DesktopProject
                 using (SqlConnection conn = new SqlConnection(constr))
                 {
                     conn.Open();
+
+                    SqlCommand checkEmailCmd = new SqlCommand($"SELECT COUNT(*) FROM users WHERE email = '{email}'", conn);
+                    int emailCount = (int)checkEmailCmd.ExecuteScalar();
+                    
                     if (string.IsNullOrEmpty(fname) || string.IsNullOrEmpty(lname) || string.IsNullOrEmpty(phone_no) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
                     {
                         MessageBox.Show("กรุณากรอกข้อมูลให้ครบถ้วน", "ข้อผิดพลาด");
+                    }
+                    else if (emailCount > 0)
+                    {
+                        MessageBox.Show("Email นี้ได้ถูกใช้เรียบร้อยแล้ว", "ข้อผิดพลาด", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     else
                     {
                         SqlCommand cmd = new SqlCommand($"insert into users(fname, lname, phone_no, email, password, usertype)values('{fname}','{lname}','{phone_no}','{email}','{password}','{usertype}')", conn);
                         cmd.ExecuteNonQuery();
-                        MessageBox.Show("บัญชีได้ถูกสร้างเสร็จเรียบร้อย...");
+                        MessageBox.Show("บัญชีได้ถูกสร้างเสร็จเรียบร้อยแล้ว...");
+                        this.Close();
                     }
                 }
             }
             catch (Exception err)
             {
-                MessageBox.Show("Email นี้ได้ถูกใช้เรียบร้อยแล้ว","ข้อผิดพลาด",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("เกิดข้อผิดพลาด: " + err.Message, "ข้อผิดพลาด", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -68,6 +77,11 @@ namespace DesktopProject
         }
 
         private void Create_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void regEmail_TextChanged(object sender, EventArgs e)
         {
 
         }

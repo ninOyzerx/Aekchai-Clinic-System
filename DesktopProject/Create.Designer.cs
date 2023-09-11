@@ -106,6 +106,7 @@ namespace DesktopProject
             this.regEmail.Name = "regEmail";
             this.regEmail.Size = new System.Drawing.Size(234, 20);
             this.regEmail.TabIndex = 45;
+            this.regEmail.TextChanged += new System.EventHandler(this.regEmail_TextChanged);
             // 
             // regisEmail
             // 

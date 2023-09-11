@@ -23,12 +23,6 @@ namespace DesktopProject
 
         }
 
-        private void searchBtn_Click_1(object sender, EventArgs e)
-        {
-            SearchEmployee searchEmp = new SearchEmployee();
-            searchEmp.Show();
-        }
-
         private void CreateAccount_Click(object sender, EventArgs e)
         {
             Create cr = new Create();
